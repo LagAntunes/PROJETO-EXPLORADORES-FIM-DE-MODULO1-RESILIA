@@ -1,0 +1,57 @@
+/* início da formatação da primeira fase do indiana */
+.carta {
+    background-image: url("/IMAGENS/carta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    width: 60%;
+    margin-top: 10%;
+}
+
+.texto h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.texto p, cite {
+    font-size: 1.2em;
+}
+
+.escolhas {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.escolhas span {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.botao-escolha {
+    width: 25%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: goldenrod;
+    background-color: khaki;
+    border-color: gold;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+/* fim da formatação da primeira fase do indiana */

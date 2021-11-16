@@ -1,0 +1,164 @@
+/* início da formatação do fundo das páginas */
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+/* fim da formatação do fundo das páginas */
+
+/* início da formatação do menu inicial */  
+    .capa {
+        background-image: url("/IMAGENS/capa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-width: 15px 15px 15px 15px;
+        border-color: gold;
+        border-style: solid;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu h1 {
+        align-content: center;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: bolder;
+        color: gold;
+        text-shadow: 3px 3px black;
+    }
+
+    .menu input {
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        width: 150%;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: yellow;
+        background-color: goldenrod;
+        text-shadow: 1px 1px black;
+        border-radius: 25px;
+        border-color: gold;
+        cursor: pointer;
+        margin-bottom: 150%;
+    }
+
+    .menu input:hover {
+        color: goldenrod;
+        background-color: gold;
+        border-color: goldenrod;
+    }
+/* fim da formatação do menu inicial */
+
+/* início da formatação da tela de personagens */
+    .moedas {
+        background-image: url("/IMAGENS/moedas.jpg");
+        background-size: cover;
+    }
+
+    .fundo-personagens {
+        background-color: white;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 15px;
+    }
+
+    .fundo-personagens h1 {
+        font-size: 2em;
+        font-weight: bolder;
+        color: gold;
+        text-shadow: 1px 1px black;
+        margin-bottom: 100px;
+        margin-top: 15px;
+    }
+
+    .flex-personagens {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .caixa-personagem {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa-personagem h2{
+        margin-bottom: 15px;
+        text-align: center;
+        color: gold;
+        text-shadow: 1px 1px black;
+        width: 100%;
+    }
+
+    .persangem-imagem1 {
+        background-image: url("/IMAGENS/indiana.jpg");
+        border-radius: 25px;
+        background-size: cover;
+        height: 320px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .persangem-imagem2 {
+        background-image: url("/IMAGENS/lara.jpg");
+        border-radius: 25px;
+        background-size: cover;
+        height: 320px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .persangem-imagem3 {
+        background-image: url("/IMAGENS/botas.jpeg");
+        border-radius: 25px;
+        background-size: cover;
+        height: 320px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .caixa-personagem p {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        color: goldenrod;
+        font-size: 1.1em;
+    }
+
+    .botao-inicio {
+        padding: 10px;
+        font-size: 1.3em;
+        color: gold;
+        text-shadow: 1px 1px black;
+        font-weight: bolder;
+        background-color: goldenrod;
+        border-color: gold;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .botao-inicio:hover {
+        background-color: gold;
+        color: goldenrod;
+        border-color: goldenrod;
+    }
+
+/* fim da formatação da tela de personagens */

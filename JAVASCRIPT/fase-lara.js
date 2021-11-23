@@ -3,9 +3,9 @@ function escolha1(){
     alert ("Escolha e digite no prompt alguma das alternativas A ou B (em maiúsculo e somente uma opção)");
     var destino = prompt("Escolha seu destino");
     if (destino == 'A') {
-        return location = ('../');
+        return location = ('../lgame-over-lara-fase-1-0.html');
     } else if (destino == 'B') {
-        return location = ('../');
+        return location = ('../lfase-1-1-lara.html');
     } else {
         return escolha1()
     }

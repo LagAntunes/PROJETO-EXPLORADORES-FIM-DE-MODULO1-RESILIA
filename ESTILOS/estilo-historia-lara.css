@@ -96,8 +96,38 @@ section {
     color: goldenrod;
     display: flex;
     flex-direction: column;
+    font-size: 1.2em;
+}
+
+.fundo-aeroporto {
+    background-image: url('/IMAGENS/aeroporto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-floresta {
+    background-image: url('/IMAGENS/floresta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* fim da formatação da primeira fase da lara */
+
+/* início da formatação da segunda fase da lara */
+.fundo-deserto {
+    background-image: url('/IMAGENS/egito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* fim da formatação da segunda fase da lara */
 
 /* início da formatação da tela de game-over */
 .game-over-fundo {

@@ -115,11 +115,11 @@ section {
     width: 70%;
 }
 
-.caixa-floresta {
+.caixa {
     padding: 20px;
 }
 
-.caixa-floresta p {
+.caixa p {
     font-size: 1.2em;
 }
 
@@ -127,6 +127,8 @@ section {
     border: 1px solid goldenrod;
     padding: 15px;
     color: goldenrod;
+    display: flex;
+    flex-direction: column;
 }
 /* fim da formatação da primeira fase do indiana */
 
@@ -140,14 +142,45 @@ section {
     align-items: center;
 }
 
-.caixa-deserto {
-    padding: 20px;
+.fundo-deserto2 {
+    background-image: url("/IMAGENS/catacumbas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.caixa-deserto p {
-    font-size: 1.2em;
-}
 /* fim da formatação da segunda fase do indiana */
+
+/* início da formatação da última fase do indiana */
+.fundo-aeroporto {
+    background-image: url("/IMAGENS/aeroporto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-oceano {
+    background-image: url("/IMAGENS/oceano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-atlantida {
+    background-image: url("/IMAGENS/atlantida.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* fim da formatação da última fase do indiana */
 
 /* início da formatação da tela de game-over */
 .game-over-fundo {
@@ -196,3 +229,50 @@ section {
     border-color: white;
 }
 /* fim da formatação da tela de game-over */
+
+/* início da formatação da tela de encerramento */
+.fundo-encerramento {
+    background-image: url("/IMAGENS/encerramento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branco-encerramento {
+    background-color: white;
+    width: 70%;
+    margin-top: 150px;
+    display: flex;
+}
+
+.formatação-encerramento h1, h2 {
+    color: goldenrod;
+    text-shadow: 1px 1px black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.formatação-encerramento p {
+    font-size: 1.5em;
+    margin-bottom: 70px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.preenchimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pessoa {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.pessoa img {
+    width: 100%;
+}
+/* fim da formatação da tela de encerramento */

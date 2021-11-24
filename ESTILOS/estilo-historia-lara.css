@@ -127,7 +127,27 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.fundo-catacumbas {
+    background-image: url('/IMAGENS/catacumbas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* fim da formatação da segunda fase da lara */
+
+/* início da formatação da terceira fase da lara */
+.fundo-praia {
+    background-image: url('/IMAGENS/praia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* fim da formatação da terceira fase da lara */
 
 /* início da formatação da tela de game-over */
 .game-over-fundo {

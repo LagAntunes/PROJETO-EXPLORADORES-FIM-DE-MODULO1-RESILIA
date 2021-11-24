@@ -68,15 +68,6 @@ section {
     border-color: khaki;
 }
 
-.fundo-chuva {
-    background-image: url('/IMAGENS/chuva.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .branco {
     background-color: white;
     width: 70%;
@@ -97,6 +88,15 @@ section {
     display: flex;
     flex-direction: column;
     font-size: 1.2em;
+}
+
+.fundo-chuva {
+    background-image: url('/IMAGENS/chuva.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fundo-aeroporto {
@@ -141,6 +141,33 @@ section {
 /* início da formatação da terceira fase da lara */
 .fundo-praia {
     background-image: url('/IMAGENS/praia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-oceano {
+    background-image: url('/IMAGENS/oceano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-atlantida {
+    background-image: url('/IMAGENS/atlantida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-inglaterra {
+    background-image: url('/IMAGENS/londres-tarde.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

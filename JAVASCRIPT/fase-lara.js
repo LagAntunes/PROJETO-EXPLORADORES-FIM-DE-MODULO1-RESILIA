@@ -26,7 +26,7 @@ function escolha2(){
 }
 // fim da programação da segunda fase da lara (Egito) //
 
-// início da programação da última fase da lara (Namíbia) //
+// início da programação da última fase da lara (Namíbia e Atlândida) //
 function escolha3(){
     alert ("Escolha e digite no prompt alguma das alternativas A ou B (em maiúsculo e somente uma opção)");
     var destino = prompt("Escolha seu destino");
@@ -38,4 +38,16 @@ function escolha3(){
         return escolha3()
     }
 }
-// fim da programação da última fase da lara (Namíbia) //
+
+function escolha4(){
+    alert ("Escolha e digite no prompt alguma das alternativas A ou B (em maiúsculo e somente uma opção)");
+    var destino = prompt("Escolha seu destino");
+    if (destino == 'A') {
+        return location = ('../lgame-over-lara-fase-3-1.html');
+    } else if (destino == 'B') {
+        return location = ('../lfase-3-7-lara.html');
+    } else {
+        return escolha4()
+    }
+}
+// fim da programação da última fase da lara (Namíbia e Atlândida) //

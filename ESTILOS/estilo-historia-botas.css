@@ -72,15 +72,6 @@ section {
     border-color: khaki;
 }
 
-.fundo-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX {
-    background-image: url('/IMAGENS/.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .branco {
     background-color: white;
     width: 70%;
@@ -101,7 +92,56 @@ section {
     display: flex;
     flex-direction: column;
 }
+
+.fundo-sonho {
+    background-image: url('/IMAGENS/sonho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-vilarejo {
+    background-image: url('/IMAGENS/vilarejo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* fim da formatação da primeira fase do botas */
+
+/* início da formatação da segunda fase do botas */
+.fundo-egito {
+    background-image: url('/IMAGENS/egito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* fim da formatação da segunda fase do botas */
+
+/* início da formatação da última fase do botas */
+.fundo-atlantida {
+    background-image: url('/IMAGENS/atlantida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-londres {
+    background-image: url('/IMAGENS/londres-tarde.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* fim da formatação da última fase do botas */
 
 /* início da formatação da tela de game-over */
 .game-over-fundo {

@@ -61,7 +61,7 @@
 
 /* início da formatação da tela de personagens */
     .moedas {
-        background-image: url("/IMAGENS/moedas.jpg");
+        background-image: url("./IMAGENS/moedas.jpg");
         background-size: cover;
     }
 
